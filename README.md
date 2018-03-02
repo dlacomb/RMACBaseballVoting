@@ -1,1 +1,1 @@
-# RMACBaseballVoting
+The purpose of this topic study is to discover if there are correlations between voting on all-conference players with statistical metrics, or is there enough evidence to prove that players are voted on due to a subjective judgment based on coaches who have evaluated a player’s statistical performance and immeasurable tangibles, such as character, attitude, effort, and/or competitiveness.  Within the analysis, all-conference winners will be decided based on statistical performance and will be analyzed against the winner of that year.
