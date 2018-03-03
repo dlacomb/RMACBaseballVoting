@@ -8,7 +8,7 @@ I created three seperated datasets to analyze various statistical metrics.  The 
 
 <p align="center"> Defensive Stats Data
 
-Information from 2013-2017 including 1,264 players and 18 features (4 categorical, 13 numerical, 1 target):
+Information from 2013-2017 including 1,263 players and 18 features (4 categorical, 13 numerical, 1 target):
 
 **Player:** Player's Last Name
 
@@ -48,7 +48,7 @@ Information from 2013-2017 including 1,264 players and 18 features (4 categorica
 
 <p align="center"> Pitching Stats Data
 
-Information from 2015-2017 including 380 players and 31 features (4 categorical, 25 numerical,  2 target):
+Information from 2015-2017 including 379 players and 31 features (4 categorical, 25 numerical,  2 target):
 
 **Player:** Player's Last Name
 
@@ -114,7 +114,7 @@ Information from 2015-2017 including 380 players and 31 features (4 categorical,
 
 <p align="center"> Offensive Stats Data
 
-Information from 2015-2017 including 458 players and 29 features (4 categorical, 23 numerical,  2 target):
+Information from 2015-2017 including 457 players and 29 features (4 categorical, 23 numerical,  2 target):
 
 **Player:** Player's Last Name
 
@@ -176,5 +176,5 @@ Information from 2015-2017 including 458 players and 29 features (4 categorical,
 
 **Exploratory Data Analysis (EDA)**
 	
-EDA was performed on all three datasets.  Majority of the data organizing was performed in Excel.  Data cleaning and handling of NA values was handled in R.  Below is R Source Code handling missing values.
+EDA was performed on all three datasets.  Majority of the data organizing was performed in Excel.  Data cleaning and handling of NA values was handled in R.  Below is R Source Code handling missing values for datasets Pitching Stats and .
 
