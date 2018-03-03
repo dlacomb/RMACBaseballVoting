@@ -6,7 +6,7 @@ This project is an analysis on the methods and decision making processes Rocky M
 
 I created three seperated datasets to analyze various statistical metrics.  The three datasets are based on Defensive Stats, Pitching Stats, and Offensive Stats.  
 
-**Defensive Stats Data**
+**_Defensive Stats Data_**
 
 Information from 2013-2017 including 1,264 players and 18 features (4 categorical, 13 numerical, 1 target):
 
@@ -46,7 +46,8 @@ Information from 2013-2017 including 1,264 players and 18 features (4 categorica
 
 **Gold Glove:** Target Variable, Player wins Defensive award for their position or not (45 winners, 9/year, one winner for each position each year)
 
-**Pitching Stats Data**
+
+**_Pitching Stats Data_**
 
 Information from 2015-2017 including 380 players and 31 features (4 categorical, 25 numerical,  2 target):
 
@@ -113,6 +114,66 @@ Information from 2015-2017 including 380 players and 31 features (4 categorical,
 **2nd Team:** 2nd Target Variable, Pitcher wins 2nd Team All Conference award or does not (5 winners/year)
 
 
+**_Offensive Stats Data_**
 
+Information from 2015-2017 including 458 players and 29 features (4 categorical, 23 numerical,  2 target):
+
+**Player:** Player's Last Name
+
+**Grade:** Fr = Freshman, So = Sophomore, Jr = Junior, Sr = Senior, R = Redshirt
+
+**Position:** P = Pitcher, C = Catcher, 1B = First Base, 2B = Second Base, 3B = Third Base, SS = Shortstop, OF = Outfield, INF = Infield, UT = Utility, DH = Designated Hitter
+
+**Team:** ASU = Adams State University, CCU = Colorado Christian University, CMU = Colorado Mesa University, CSM = Colorado School of Mines, CSUP = Colorado State University Pueblo, MSUD = Metro State University Denver, NMHU = New Mexico Highlands University, RU = Regis University, UCCS = University Colorado Colorado Springs
+
+**Year:** 2015-2017
+
+**Conference Standing:** That player's team finish in the conference (1-9)
+
+**avg:** Batting Average
+
+**gp:** Games Played
+
+**gs:** Games Started
+
+**ab:** At Bats
+
+**r:** Runs
+
+**h:** Hits
+
+**2b:** Doubles
+
+**3b:** Triples
+
+**hr:** Homeruns
+
+**rbi:** Runs Batted In
+
+**tb:** Total Bases
+
+**slg%:** Slugging Percentage
+
+**bb:** Base on Balls (Walks)
+
+**hbp:** Hit By Pitch
+
+**so:** Strikeouts
+
+**gdp:** Grounded into Double Play 
+
+**ob%:** On Base Percentage
+
+**sf:** Sacrifice Flys
+
+**sh:** Sacrifice Hits
+
+**sb:** Stolen Bases
+
+**sba:** Stolen Base Attempts
+
+**1st Team:** 1st Target Variable, Player wins 1st Team All Conference award or does not (1 winner/year for DH, C, 1B, 2B, 3B, SS, 3 winners/year for OF)
+
+**2nd Team:** 2nd Target Variable, Player wins 2nd Team All Conference award or does not (1 winner/year for DH, C, 1B, 2B, 3B, SS, 3 winners/year for OF)
 
 
