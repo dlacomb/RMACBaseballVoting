@@ -6,8 +6,6 @@ This project is an analysis on the methods and decision making processes Rocky M
 
 I created three seperated datasets to analyze various statistical metrics.  The three datasets are based on Defensive Stats, Pitching Stats, and Offensive Stats.  
 
-
-
 **_Defensive Stats Data_**
 
 Information from 2013-2017 including 1,264 players and 18 features (4 categorical, 13 numerical, 1 target):
@@ -47,8 +45,6 @@ Information from 2013-2017 including 1,264 players and 18 features (4 categorica
 **ci:** Catchers Interference 
 
 **Gold Glove:** 0 = No, 1 = Yes, Target Variable, Player wins Defensive award for their position or not (45 winners, 9/year, one winner for each position each year)
-
-
 
 **_Pitching Stats Data_**
 
@@ -116,8 +112,6 @@ Information from 2015-2017 including 380 players and 31 features (4 categorical,
 
 **2nd Team:** 0 = No, 1 = Yes, 2nd Target Variable, Pitcher wins 2nd Team All Conference award or does not (5 winners/year)
 
-
-
 **_Offensive Stats Data_**
 
 Information from 2015-2017 including 458 players and 29 features (4 categorical, 23 numerical,  2 target):
@@ -180,8 +174,7 @@ Information from 2015-2017 including 458 players and 29 features (4 categorical,
 
 **2nd Team:** 0 = No, 1 = Yes, 2nd Target Variable, Player wins 2nd Team All Conference award or does not (1 winner/year for DH, C, 1B, 2B, 3B, SS, 3 winners/year for OF)
 
-
-
-**Exploratory Data Analysis (EDA)**
+<p align="center"> **Exploratory Data Analysis (EDA)**
+	
 EDA was performed on all three datasets.  Majority of the data organizing was performed in Excel.  Data cleaning and handling of NA values was handled in R.  Below is R Source Code handling missing values.
 
