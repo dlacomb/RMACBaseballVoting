@@ -180,11 +180,7 @@ EDA was performed on all three datasets.  Majority of the data organizing was pe
 
 ```{r }
 
-> #Pitching Stats Data
-
-> str(ps)
-
-> summary(ps)
+> #Pitching Stats Data  > str(ps)  > summary(ps)
   
 > ps$`2b `[is.na(ps$`2b `)] <- with(ps, median(ps$`2b `, na.rm = TRUE))
 
