@@ -178,6 +178,10 @@ Information from 2015-2017 including 457 players and 29 features (4 categorical,
 	
 EDA was performed on all three datasets.  Majority of the data organizing was performed in Excel.  Data cleaning and handling of NA values was handled in R.  Below is R Source Code handling missing values for datasets Pitching Stats and Offensive Stats.
 
+```{r }
+
+> #Pitching Stats Data
+
 > str(ps)
 
 > summary(ps)
@@ -230,4 +234,51 @@ EDA was performed on all three datasets.  Majority of the data organizing was pe
 
 > View(ps)
 
+```
+``` {r }
 
+#Offensive Stats Data 
+
+> str(os)
+
+> summary(os)
+                                    
+> which((is.na(os$`tb `)))
+ 
+> os$`tb `[is.na(os$`tb `)] <- with(os, median(os$`tb `, na.rm = TRUE))
+
+> which((is.na(os$`tb `)))
+
+> which((is.na(os$`slg% `)))
+
+> os$`slg% `[is.na(os$`slg% `)] <- with(os, median(os$`slg% `, na.rm = TRUE))
+
+> which((is.na(os$`slg% `)))
+
+> which((is.na(os$`gdp `)))
+
+> os$`gdp `[is.na(os$`gdp `)] <- with(os, median(os$`gdp `, na.rm = TRUE))
+
+> which((is.na(os$`gdp `)))
+
+> which((is.na(os$`ob% `)))
+
+> os$`ob% `[is.na(os$`ob% `)] <- with(os, median(os$`ob% `, na.rm = TRUE))
+
+> which((is.na(os$`ob% `)))
+
+> which((is.na(os$`sf `)))
+ 
+> os$`sf `[is.na(os$`sf `)] <- with(os, median(os$`sf `, na.rm = TRUE))
+
+> which((is.na(os$`sf `)))
+
+> which((is.na(os$`sh `)))
+
+> os$`sh `[is.na(os$`sh `)] <- with(os, median(os$`sh `, na.rm = TRUE))
+
+> which((is.na(os$`sh `)))
+
+> View(os)
+
+```
