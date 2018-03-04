@@ -176,5 +176,58 @@ Information from 2015-2017 including 457 players and 29 features (4 categorical,
 
 **Exploratory Data Analysis (EDA)**
 	
-EDA was performed on all three datasets.  Majority of the data organizing was performed in Excel.  Data cleaning and handling of NA values was handled in R.  Below is R Source Code handling missing values for datasets Pitching Stats and .
+EDA was performed on all three datasets.  Majority of the data organizing was performed in Excel.  Data cleaning and handling of NA values was handled in R.  Below is R Source Code handling missing values for datasets Pitching Stats and Offensive Stats.
+
+> str(ps)
+
+> summary(ps)
+  
+> ps$`2b `[is.na(ps$`2b `)] <- with(ps, median(ps$`2b `, na.rm = TRUE))
+
+> which((is.na(ps$`2b `)))
+
+> which((is.na(ps$`3b `)))
+ 
+> ps$`3b `[is.na(ps$`3b `)] <- with(ps, median(ps$`3b `, na.rm = TRUE))
+
+> which((is.na(ps$`3b `)))
+
+> which((is.na(ps$`hr `)))
+  
+> ps$`hr `[is.na(ps$`hr `)] <- with(ps, median(ps$`hr `, na.rm = TRUE))
+
+> which((is.na(ps$`hr `)))
+
+> which((is.na(ps$`ab `)))
+ 
+> ps$`ab `[is.na(ps$`ab `)] <- with(ps, median(ps$`ab `, na.rm = TRUE))
+
+> which((is.na(ps$`ab `)))
+
+> which((is.na(ps$`b/avg `)))
+
+> ps$`b/avg `[is.na(ps$`b/avg `)] <- with(ps, median(ps$`b/avg `, na.rm = TRUE))
+
+> which((is.na(ps$`b/avg `)))
+
+> which((is.na(ps$`wp `)))
+
+> ps$`wp `[is.na(ps$`wp `)] <- with(ps, median(ps$`wp `, na.rm = TRUE))
+
+> which((is.na(ps$`wp `)))
+
+> which((is.na(ps$`hbp `)))
+
+> ps$`hbp `[is.na(ps$`hbp `)] <- with(ps, median(ps$`hbp `, na.rm = TRUE))
+
+> which((is.na(ps$`hbp `)))
+
+> which((is.na(ps$`bk `)))
+
+> ps$`bk `[is.na(ps$`bk `)] <- with(ps, median(ps$`bk `, na.rm = TRUE))
+
+> which((is.na(ps$`bk `)))
+
+> View(ps)
+
 
