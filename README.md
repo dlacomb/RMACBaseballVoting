@@ -20,7 +20,7 @@ Information from 2013-2017 including 1,263 players and 18 features (4 categorica
 
 **Year:** 2013-2017
 
-**Conference Standing:** That player's team finish in the conference (1-9)
+**ConfStanding:** Conference Standing - That player's team finish in the conference (1-9)
 
 **c:** Chances 
 
@@ -30,7 +30,7 @@ Information from 2013-2017 including 1,263 players and 18 features (4 categorica
 
 **e:** Errors 
 
-**fld%:** Fielding Percentage 
+**fp:** Fielding Percentage 
 
 **dp:** Double Plays 
 
@@ -38,13 +38,13 @@ Information from 2013-2017 including 1,263 players and 18 features (4 categorica
 
 **csb:** Caught Stealing Base 
 
-**sba%:** Stolen Base Achieved Percentage 
+**sbap:** Stolen Base Achieved Percentage 
 
 **pb:** Passed Balls 
 
 **ci:** Catchers Interference 
 
-**Gold Glove:** 0 = No, 1 = Yes, Target Variable, Player wins Defensive award for their position or not (45 winners, 9/year, one winner for each position each year)
+**GoldGlove:** Yes or No, Target Variable, Player wins Defensive award for their position or not (45 winners, 9/year, one winner for each position each year, *Note: Some years there are ties)
 
 <p align="center"> Pitching Stats Data
 
@@ -232,3 +232,5 @@ EDA was performed on all three datasets.  Majority of the data organizing was pe
 > which((is.na(os$`sh `)))
 > View(os)
 ```
+I performed Exploratory Data Analysis Visualizations to see visual comparisons of statistics between Gold Glove winners and losers, and All-Conference winners and losers.  Below is a Visualization Comparison for each set of positions.
+
