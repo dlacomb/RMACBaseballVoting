@@ -14,7 +14,7 @@ Information from 2013-2017 including 1,263 players and 18 features (4 categorica
 
 **Grade:** Fr = Freshman, So = Sophomore, Jr = Junior, Sr = Senior, R = Redshirt
 
-**Position:** P = Pitcher, C = Catcher, 1B = First Base, 2B = Second Base, 3B = Third Base, SS = Shortstop, OF = Outfield, INF = Infield, UT = Utility, DH = Designated Hitter
+**Position:** P = Pitcher, C = Catcher, INF = Infield, OF = Outfield, , UT = Utility
 
 **Team:** ASU = Adams State University, CCU = Colorado Christian University, CMU = Colorado Mesa University, CSM = Colorado School of Mines, CSUP = Colorado State University Pueblo, MSUD = Metro State University Denver, NMHU = New Mexico Highlands University, RU = Regis University, UCCS = University Colorado Colorado Springs
 
@@ -44,7 +44,7 @@ Information from 2013-2017 including 1,263 players and 18 features (4 categorica
 
 **ci:** Catchers Interference 
 
-**GoldGlove:** Yes or No, Target Variable, Player wins Defensive award for their position or not (45 winners, 9/year, one winner for each position each year, *Note: Some years there are ties)
+**GoldGlove:** Yes or No, Target Variable, Player wins Defensive award for their position or not (45 winners, 9/year, one winner for each position each year (4 INF/year, 3 OF/year), *Note: Some years there are ties)
 
 <p align="center"> Pitching Stats Data
 
