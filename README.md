@@ -52,3 +52,4 @@ Majority of the data organizing was performed in Excel.  Data handling was dealt
  ![Catchers](C:\Users\Drew LaComb\Pictures\Defensive Stats\Catcher.png)
 </p>
 
+![alt tag](C:\Users\Drew LaComb\Pictures\Defensive Stats\Catcher.png "Description goes here")
