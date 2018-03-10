@@ -48,9 +48,7 @@ Information from 2013-2017 including 1,263 players and 18 features (4 categorica
 	
 Majority of the data organizing was performed in Excel.  Data handling was dealt with in R.  I performed Exploratory Data Analysis Visualizations to see visual comparisons of statistics between Gold Glove winners and losers.  Below is a Visualization Comparison for each set of positions.
 
-<p align="center"> ![Screenshot](Catcher.png)
-	
 <p align="center">
-  <img src="C:\Users\Drew LaComb\Pictures\Defensive Stats\Catcher.png" width="350"/>
+ ![Catchers](C:\Users\Drew LaComb\Pictures\Defensive Stats\Catcher.png)
 </p>
 
