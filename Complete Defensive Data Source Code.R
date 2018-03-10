@@ -119,6 +119,10 @@
     > #Variable Importance Order
     > # 1.) Chances 2.) Putouts 3.) Double Plays 4.) Errors 5.) Assists 6.) Position 7.) Fielding Percentage 8.) Team 9.) Stolen Base Attempts 10.) Caught Stealing Base 11.) Stolen Base Attempt Percentage 12.) Conference Standing 13.) Passed Balls
     > varImpPlot(fit)
+    > library(caret)
+    > Prediction <- predict(fit, testbds, type = "class")
+    > confusionMatrix(Prediction, testbds$GoldGlove)
+    > #Accuracy = 96%
               
   > #####SVM Model Regular, Linear, and Polynomial (need all numeric data and factor variable)
     > svmbds <- bds
