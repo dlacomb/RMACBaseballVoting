@@ -68,7 +68,8 @@ Majority of the data organizing was performed in Excel.  Data handling was dealt
 
 <p align="center"> Random Forest
 	
-	
+![random forest variable importance](https://user-images.githubusercontent.com/36368488/37243418-0b752156-2436-11e8-82d9-44269e556d10.png)
+
 <p align="center"> SVM Model
 	
 
