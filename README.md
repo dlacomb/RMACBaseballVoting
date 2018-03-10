@@ -50,3 +50,6 @@ Majority of the data organizing was performed in Excel.  Data handling was dealt
 
 ![catcher](https://user-images.githubusercontent.com/36368488/37243302-61d1277c-2434-11e8-939a-b09645a5a813.png)
 
+![pitcher](https://user-images.githubusercontent.com/36368488/37243350-088b39e0-2435-11e8-93b8-4d202c7cd846.png)
+
+
