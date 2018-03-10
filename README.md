@@ -67,21 +67,37 @@ The Defensive Stats Dataset is a binary classification problem, which a combinat
 Accuracy = 90%
 
 Variable Importance Order:
+
 1.) Chances
+
 2.) Putouts 
+
 3.) Double Plays 
-4.) Fielding Percentage  
+
+4.) Fielding Percentage 
+
 5.) Assists 
+
 6.) Team 
+
 7.) Errors 
+
 8.) Conference Standing 
+
 9.) Year 
+
 10.) Caught Stealing Base 
-11.) Stolen Base Attempt Percentage 
-12.) Position  
+
+11.) Stolen Base Attempt Percentage
+
+12.) Position 
+
 13.) Grade 
+
 14.) Stolen Base Attempts 
+
 15.) Passed Balls 
+
 16.) Catchers Interference
 
 ![decision tree](https://user-images.githubusercontent.com/36368488/37243406-da4864bc-2435-11e8-9cf0-ee202fbf8608.png)
@@ -91,18 +107,31 @@ Variable Importance Order:
 Accuracy = 96%
 
 Variable Importance Order:
+
 1.) Chances
+
 2.) Putouts 
+
 3.) Double Plays 
+
 4.) Errors 
+
 5.) Assists 
+
 6.) Position
+
 7.) Fielding Percentage
+
 8.) Team 
+
 9.) Stolen Base Attempts 
+
 10.) Caught Stealing Base 
-11.) Stolen Base Attempt Percentage 
+
+11.) Stolen Base Attempt Percentage
+
 12.) Conference Standing
+
 13.) Passed Balls
 
 ![random forest variable importance](https://user-images.githubusercontent.com/36368488/37243418-0b752156-2436-11e8-82d9-44269e556d10.png)
@@ -110,12 +139,17 @@ Variable Importance Order:
 <p align="center"> SVM Model
 
 SVM Model: Support Vectors = 357, Accuracy = 91%
+
 Linear SVM Model: Support Vectors = 871, Accuracy = 81%
+
 Polynomial SVM Model: Support Vectors = 357, Accuracy = 91%
 
 <p align="center"> K Nearest Neighbor
 	
 k = 2: Accuracy = 88%
+
 k = 5: Accuracy = 85%
+
 k = 8: Accuracy = 84%
+
 k = 15: Accuracy = 84%
