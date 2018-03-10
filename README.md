@@ -61,4 +61,16 @@ Majority of the data organizing was performed in Excel.  Data handling was dealt
 **Analysis**
 
 <p align="center"> Decision Tree
+
+
+![decision tree](https://user-images.githubusercontent.com/36368488/37243406-da4864bc-2435-11e8-9cf0-ee202fbf8608.png)
+
+
+<p align="center"> Random Forest
+	
+	
+<p align="center"> SVM Model
+	
+
+<p align="center"> K Nearest Neighbor
 	
