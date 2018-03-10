@@ -4,6 +4,7 @@
 > ds$Position <- as.factor(ds$Position)
 > ds$Team <- as.factor(ds$Team)
 > ds$GoldGlove <- as.factor(ds$GoldGlove)
+> ds <- as.data.frame(ds)
 > install.packages("DMwR")
 > library(DMwR)
 > balanced_ds <- SMOTE(GoldGlove ~ ., ds, perc.over = 1300, perc.under = 100)
@@ -56,19 +57,6 @@
 > confusionMatrix(svm.pred.linear, testbds$GoldGlove)
 > svm.pred.polynomial <- predict(svm.model.polynomial, testbds)
 > confusionMatrix(svm.pred.polynomial, testbds$GoldGlove)
-
-> ###Hierarchal clustering
-> clustbds = scale(clustbds)
-> install.packages("stats")
-> library(stats)
-> hc.complete = hclust(dist(clustbds, method = "euclidean"), method = "complete")
-> hc.complete
-> wss <- (nrow(clustbds)-1)*sum(apply(clustbds,2,var))
-> for (i in 2:15) wss[i] <- sum(kmeans(clustbds, centers=i)$withinss)
-> plot(1:15, wss, type="b", xlab="Number of Clusters", ylab="Within groups sum of squares")
-> plot(hc.complete, main = "Complete Linkage Dendrogram", cex = .75, hang = .05)
-> cutree(hc.complete, k = 8)
-> rect.hclust(hc.complete, k = 8, border = "red")
 
 > ### knn 
 > library(class)
