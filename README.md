@@ -215,6 +215,7 @@ After viewing the results of my analysis we can conclude what important factors 
 With these results I am looking forward to predicting this year's Gold Glove winners after the season in May knowing which variables to analyze.  To summarize the analysis and findings simply, players have the best chance of winning a Gold Glove if they play more than anyone else and have the most chances of touching the baseball.  It gives them more opportunities for putouts, double plays, and assists.  All of these variables are very important in dictating winners. 
 
 Resources
+
 SMOTE - https://www.r-bloggers.com/handling-class-imbalance-with-r-and-caret-an-introduction/
       - https://www.rdocumentation.org/packages/DMwR/versions/0.4.1/topics/SMOTE
       - https://www.analyticsvidhya.com/blog/2016/03/practical-guide-deal-imbalanced-classification-problems/
