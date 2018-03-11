@@ -160,11 +160,13 @@ After reviewing all of the supervised learning algorithm accuracy results, I can
 
 ![screenshot 469](https://user-images.githubusercontent.com/36368488/37243635-1cf39b5c-243a-11e8-9316-be2c4461cf40.png)
 
-Since random forest had the highest accuracy rate, I chose to do further exploratory data analysis to narrow down the players who were in the running for awards or perhaps should have won an award based on variable importance. My filtering and analysis consists of players who did not win Gold Gloves but meet the requirements of the 1st quartile of data in the top 5 variables of importance from the random forest model.  I took the first quartile values of Gold Glove winners in chances, putouts, double plays, and assists.  I took the third quartile for errors from Gold Glove winners since less errors is better.  By taking players who did not win Gold Gloves but meet these 5 requirements are the top candidates for winning a Gold Glove.
+Since random forest had the highest accuracy rate, I chose to do further exploratory data analysis to narrow down the players who were in the running for awards or perhaps should have won an award based on variable importance. My filtering and analysis consists of players who did not win Gold Gloves but meet the requirements of the 1st quartile of data in the top 5 variables of importance from the random forest model.  I took the first quartile values of Gold Glove winners in chances, putouts, double plays, and assists.  I took the third quartile for errors from Gold Glove winners since less errors is better.  By taking players who did not win Gold Gloves, and who meet these 5 requirements are the top candidates for winning a Gold Glove.  These candidates could have been selected as Gold Glove Winners for their respective positions and years.  The final decision was based on coach's judgment.
 
 <p align="center"> Catcher Candidates
 
 *2013: Williams
+
+*2014: None
 
 *2015: Baca, Brown
 
@@ -208,3 +210,13 @@ Since random forest had the highest accuracy rate, I chose to do further explora
 
 *2017: None
 
+After viewing the results of my analysis we can conclude what important factors dictate the winners.  Before performing this analysis, I assumed fielding percentage and Conference Standing would be more important variables in deciding who wins a Gold Glove.  Through personal experience it seems that the better teams would have more award winners because of better players and more wins.  However, coaches have done a good job on voting on players who perform well purely on statistics (which in my opinion is more morally correct).  With these results I am looking forward to predicting this year's Gold Glove winners after the season in May knowing which variables to analyze.  To summarize the analysis and findings simply, players have the best chance of winning a Gold Glove if they play more than anyone else and have the most chances of touching the baseball.  It gives them more opportunities for putouts, double plays, and assists.  All of these variables are very important in dictating winners. 
+
+Resources
+SMOTE - https://www.r-bloggers.com/handling-class-imbalance-with-r-and-caret-an-introduction/
+      - https://www.rdocumentation.org/packages/DMwR/versions/0.4.1/topics/SMOTE
+      - https://www.analyticsvidhya.com/blog/2016/03/practical-guide-deal-imbalanced-classification-problems/
+Decision Trees - https://www.statmethods.net/advstats/cart.html
+Random Forest - https://www.r-bloggers.com/random-forests-in-r/
+SVM - https://www.rdocumentation.org/packages/e1071/versions/1.6-8/topics/svm
+KNN - https://www.analyticsvidhya.com/blog/2015/08/learning-concept-knn-algorithms-programming/
