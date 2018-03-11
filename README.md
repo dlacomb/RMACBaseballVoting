@@ -156,4 +156,55 @@ k = 15: Accuracy = 84%
 
 **Conclusions/Interpretation of Results**
 
+After reviewing all of the supervised learning algorithm accuracy results, I can conclude that the random forest method produces the highest accuracy rate of 96%.  
+
 ![screenshot 469](https://user-images.githubusercontent.com/36368488/37243635-1cf39b5c-243a-11e8-9316-be2c4461cf40.png)
+
+Since random forest had the highest accuracy rate, I chose to do further exploratory data analysis to narrow down the players who were in the running for awards or perhaps should have won an award based on variable importance. My filtering and analysis consists of players who did not win Gold Gloves but meet the requirements of the 1st quartile of data in the top 5 variables of importance from the random forest model.  I took the first quartile values of Gold Glove winners in chances, putouts, double plays, and assists.  I took the third quartile for errors from Gold Glove winners since less errors is better.  By taking players who did not win Gold Gloves but meet these 5 requirements are the top candidates for winning a Gold Glove.
+
+<p align="center"> Catcher Candidates
+
+*2013: Williams
+
+*2015: Baca, Brown
+
+*2016: Serrano
+
+*2017: Maltby, Downs
+
+<p align="center"> Pitcher Candidates
+
+*2013: Schwein, Gilman, Snell, Harms
+
+*2014: Delay, Reno, Harrison, Rooney, Schwein
+
+*2015: Erazo, Rooney, Rimer, Baca, Heredia, Soto, Wittmus, Badalucco
+
+*2016: Conlin, Garcia, Vega, Erazo, Schwein
+
+*2017: Gotsis, Brennan, Leahy, Vega
+
+<p align="center"> Infield Candidates
+	
+*2013: Baldini, Box, LaComb, Billinger
+
+*2014: Garcia, Gonzales, Knox, Skrdlant
+
+*2015: Caporal, Hesselberg, Thurston, Bothwell, Gonzales
+
+*2016: Armenta, Smith, McLeod, Comito, Caporal,
+
+*2017: McDermott, McLeod, Ortiz, Cilladi, Gunther, Fabricant
+
+<p align="center"> Outfield Candidates
+	
+*2013: Davis
+
+*2014: Valenzuela, Wagner, Morley, Purvis, Shoutta
+
+*2015: Dudley, Gibbons
+
+*2016: McCarty
+
+*2017: None
+
